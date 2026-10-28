@@ -41,3 +41,8 @@ def fraud_tx() -> Transaction:
             last_transaction_time="2025-10-28T14:28:00Z",  # Only 2 mins ago
         )
     )
+@pytest.fixture
+def workdir(tmp_path: Path) -> Path:
+    d = tmp_path / "out"
+    d.mkdir()
+    return d

@@ -1,0 +1,13 @@
+{
+  "transaction_id": "tx-998877",
+  "user_id": "usr-4455",
+  "amount": 25000.00,
+  "currency": "USD",
+  "ip_country": "RU",
+  "timestamp": "2025-10-28T14:30:00Z",
+  "user_profile": {
+    "home_country": "US",
+    "avg_transaction_amount": 150.00,
+    "last_transaction_time": "2025-10-28T14:28:00Z"
+  }
+}

@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  fraud-engine:
+    build: .
+    image: agentic-bfsi-fraud-engine:dev
+    volumes:
+      - ./out:/tmp/out
